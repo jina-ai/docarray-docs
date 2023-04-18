@@ -37,7 +37,7 @@ jobs:
       - name: Checkout to DocArray core
         uses: actions/checkout@v2
         with:
-          repository: jina-ai/jina
+          repository: docarray/docarray
           ref: v0.21.0
           token: ${{ secrets.JINA_DOCS2_TOKEN }}
           fetch-depth: 1
